@@ -185,7 +185,12 @@ function agregarMetodoCalculoDescuento(producto) {
   } 
   return producto;
 }
- 
+//OTRA FORMA: como estamos parados en el mismo objeto 'producto', podemos usar 'THIS' para referenciarlo.
+// producto.calcularPrecioDescuento = function () {
+//   return this.precio = this.precio - (this.precio * this.porcentajeDeDescuento);
+// } 
+// return producto;
+// }
 
 
 // No modificar nada debajo de esta línea
